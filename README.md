@@ -10,7 +10,7 @@ A project containing various code challenges (description, solution and tests)
 npm i
 ```
 
-### Run tests
+### Run tests
 
 1. Follow `Installation` to install dependencies
 
