@@ -1,0 +1,32 @@
+# Custom Signs
+
+### Instructions
+
+In this exercise you'll be writing code to help a sign company create custom messages for their signs.
+
+### Task 1 - Build an occasion sign
+
+Implement the function buildSign(occasion, name) that accepts a string as the occasion parameter and a string holding someone's name as the name parameter.
+
+The two parameters will be embedded into a template string to output the message on the sign.
+
+```
+buildSign('Birthday', 'Rob');
+// => "Happy Birthday Rob!"
+```
+
+### Task 2 - Build a birthday sign
+
+Implement the function buildBirthdaySign(age) that accepts an age and based on the age will determine part of the message on the sign.
+
+If the age is 50 or older, the sign will refer user as mature, else it will refer them as young.
+
+The exact expected output is shown below:
+
+```
+buildBirthdaySign(50);
+// => "Happy Birthday! What a mature fellow you are."
+
+buildBirthdaySign(45);
+// => "Happy Birthday! What a young fellow you are."
+```
